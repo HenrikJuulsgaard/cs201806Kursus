@@ -12,7 +12,7 @@ namespace cs201806_Terning
         {
             Terning T1 = new Terning();
             T1.Skriv();
-            System.Math.
+            
             Console.Read();
         }
     }
