@@ -11,9 +11,9 @@ namespace cs201806Kursus
         public int værdi;
         private bool snyd;
         private static Random rnd = new Random();
-        private int Skriv()
+        private void Skriv()
         {
-            return 2;
+            Console.WriteLine(this.værdi.ToString());
         }
         private int Ryst()
         {

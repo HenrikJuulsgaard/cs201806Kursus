@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806Kursus", "cs201806Kursus\cs201806Kursus.csproj", "{47DC9FA0-DF25-4F38-A20F-7D04BD8F6F97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Egenskaber", "cs201806 Egenskaber\cs201806 Egenskaber.csproj", "{B8D73738-60EE-4B30-B2AE-6B16D12C6527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 BestPractice", "cs201806 BestPractice\cs201806 BestPractice.csproj", "{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{47DC9FA0-DF25-4F38-A20F-7D04BD8F6F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47DC9FA0-DF25-4F38-A20F-7D04BD8F6F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47DC9FA0-DF25-4F38-A20F-7D04BD8F6F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D73738-60EE-4B30-B2AE-6B16D12C6527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D73738-60EE-4B30-B2AE-6B16D12C6527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D73738-60EE-4B30-B2AE-6B16D12C6527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D73738-60EE-4B30-B2AE-6B16D12C6527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
