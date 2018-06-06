@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B8D73738-60EE-4B30-B2AE-6B16D12C6527}</ProjectGuid>
+    <ProjectGuid>{D191BA2C-F9F7-4379-829C-2911A1E74970}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cs201806_Egenskaber</RootNamespace>
-    <AssemblyName>cs201806 Egenskaber</AssemblyName>
+    <RootNamespace>cs201806_Terning</RootNamespace>
+    <AssemblyName>cs201806 Terning</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

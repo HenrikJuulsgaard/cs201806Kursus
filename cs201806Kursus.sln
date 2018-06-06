@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Egenskaber", "cs20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 BestPractice", "cs201806 BestPractice\cs201806 BestPractice.csproj", "{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Trekant", "cs201806 Trekant\cs201806 Trekant.csproj", "{C64FA643-E693-4B6A-91C1-D62B69A4771D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Terning", "cs201806 Terning\cs201806 Terning.csproj", "{D191BA2C-F9F7-4379-829C-2911A1E74970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE218B9F-79E6-420E-9E0D-B8A96417E8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64FA643-E693-4B6A-91C1-D62B69A4771D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64FA643-E693-4B6A-91C1-D62B69A4771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64FA643-E693-4B6A-91C1-D62B69A4771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64FA643-E693-4B6A-91C1-D62B69A4771D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D191BA2C-F9F7-4379-829C-2911A1E74970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D191BA2C-F9F7-4379-829C-2911A1E74970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D191BA2C-F9F7-4379-829C-2911A1E74970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D191BA2C-F9F7-4379-829C-2911A1E74970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

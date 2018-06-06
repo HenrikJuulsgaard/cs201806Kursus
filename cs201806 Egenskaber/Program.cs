@@ -17,6 +17,12 @@ namespace cs201806_Egenskaber
             Vare v2 = new Vare("vare #2" , 200 );
             Console.WriteLine(v2.PrisMedMoms());
 
+
+            Person p1 = new Person();
+            p1.Fornavn = "Henrik";
+            p1.EfterNavn = "Ju";
+            Console.WriteLine(p1.FuldtNavn());
+
             Console.Read();
 
         }

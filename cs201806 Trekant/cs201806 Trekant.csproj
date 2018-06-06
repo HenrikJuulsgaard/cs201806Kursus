@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B8D73738-60EE-4B30-B2AE-6B16D12C6527}</ProjectGuid>
+    <ProjectGuid>{C64FA643-E693-4B6A-91C1-D62B69A4771D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>cs201806_Egenskaber</RootNamespace>
-    <AssemblyName>cs201806 Egenskaber</AssemblyName>
+    <RootNamespace>cs201806_Trekant</RootNamespace>
+    <AssemblyName>cs201806 Trekant</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trekant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
