@@ -19,7 +19,7 @@ namespace cs201806_Costum_Fejlhåndtering
             }
             catch (StockItemException ex)
             {
-                Console.WriteLine(" Stock Item error ");
+                Console.WriteLine(" Stock Item error " + ex.Message);
                
             }
             catch (Exception)
