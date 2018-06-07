@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Person", "cs201806
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "201806 Arv(Random)", "201806 Arv(Random)\201806 Arv(Random).csproj", "{4D2BCD61-CD43-4AA8-ACF8-ED54C7F74C7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Person Polymorfi", "cs201806 Person Polymorfi\cs201806 Person Polymorfi.csproj", "{4B40E0F9-635B-4179-9A28-53ACD8C8F686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Dyr Polymorfi", "cs201806 Dyr Polymorfi\cs201806 Dyr Polymorfi.csproj", "{F2AC415D-28E5-4AFF-AAD4-2686F6AE7F08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{4D2BCD61-CD43-4AA8-ACF8-ED54C7F74C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D2BCD61-CD43-4AA8-ACF8-ED54C7F74C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D2BCD61-CD43-4AA8-ACF8-ED54C7F74C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B40E0F9-635B-4179-9A28-53ACD8C8F686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B40E0F9-635B-4179-9A28-53ACD8C8F686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B40E0F9-635B-4179-9A28-53ACD8C8F686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B40E0F9-635B-4179-9A28-53ACD8C8F686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AC415D-28E5-4AFF-AAD4-2686F6AE7F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AC415D-28E5-4AFF-AAD4-2686F6AE7F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AC415D-28E5-4AFF-AAD4-2686F6AE7F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AC415D-28E5-4AFF-AAD4-2686F6AE7F08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
