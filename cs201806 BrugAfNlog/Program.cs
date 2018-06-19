@@ -14,7 +14,7 @@ namespace BrugAfNlog
         static void Main(string[] args)
         {
             logger.Trace("enter");
-
+            test2();
 
             Console.Read();
         }
