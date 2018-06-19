@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 streamUsing", "cs2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Collection", "cs201806 Collection\cs201806 Collection.csproj", "{BFE4CE71-09E3-4823-8150-C60BC0440A32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 collection kort", "cs201806 collection kort\cs201806 collection kort.csproj", "{8D5FBED0-1B61-404C-AD2F-0059A449F351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Generisk metode", "cs201806 Generisk metode\cs201806 Generisk metode.csproj", "{259249DA-9586-4619-8A2B-068DC433655E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{BFE4CE71-09E3-4823-8150-C60BC0440A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE4CE71-09E3-4823-8150-C60BC0440A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE4CE71-09E3-4823-8150-C60BC0440A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5FBED0-1B61-404C-AD2F-0059A449F351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5FBED0-1B61-404C-AD2F-0059A449F351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5FBED0-1B61-404C-AD2F-0059A449F351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5FBED0-1B61-404C-AD2F-0059A449F351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259249DA-9586-4619-8A2B-068DC433655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259249DA-9586-4619-8A2B-068DC433655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259249DA-9586-4619-8A2B-068DC433655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259249DA-9586-4619-8A2B-068DC433655E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
