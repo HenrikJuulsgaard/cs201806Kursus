@@ -12,7 +12,7 @@ namespace cs201806_streamUsing
         {
             DateTime dt = DateTime.Now;
 
-            Console.WriteLine(dt.ToString("s"));
+            Console.WriteLine(dt.ToString("HH:mm:ss:ffff"));
             try
             {
                
@@ -31,8 +31,8 @@ namespace cs201806_streamUsing
                     
                 }
 
-
-                Console.WriteLine(dt.ToString("HH:mm:ss:fff"));
+                dt = DateTime.Now;
+                Console.WriteLine(dt.ToString("HH:mm:ss:ffff"));
 
                 Console.Read();
             }
