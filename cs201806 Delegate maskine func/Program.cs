@@ -4,32 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cs201806_Delegate_funktionspointer_1
+namespace cs201806_Delegate_maskine_func
 {
     class Program
     {
-        // Delegate
-        public delegate int Beregn (int a, int b); 
+        // Delegate , KAN NU UNDVÆRES DA DER ANVENDES FUNC
+        // public delegate int Beregn(int a, int b);    
 
         static void Main(string[] args)
         {
-            Beregn s = new Beregn(Plus);
-            int res = Beregner(1, 2,s);
+            int res = Beregner(1, 2, Plus);
 
             Console.WriteLine(res);
 
-            s += Minus;
-            res = Beregner(1, 2, s);
+            res = Beregner(1, 2, Minus);
             Console.WriteLine(res);
 
 
-            s += Gange;
-            res = Beregner(1, 2, s);
+            res = Beregner(1, 2, Gange);
             Console.WriteLine(res);
 
-            s += Gange;
-            s += Divider;
-            res = Beregner(1, 2, s);
+            res = Beregner(1, 2, Divider);
+            Console.WriteLine(res);
+
+            var f = FindTilfældigFunktion();
+            res = f(2, 2);
             Console.WriteLine(res);
 
 
@@ -37,12 +36,22 @@ namespace cs201806_Delegate_funktionspointer_1
 
         }
 
-        // Brug funktion
-        public static int Beregner(int a,int b , Beregn fun)
+        // Brug funktion til beregning
+        public static int Beregner(int a, int b, Func<int, int,int> fun)
         {
             return fun(a, b);
         }
 
+        // Find funktion
+        public static Func<int,int,int> FindTilfældigFunktion()
+        {
+
+            if ((DateTime.Now.Millisecond)%2== 1)
+            {
+                return Plus;
+            }
+            return Minus;
+        }
 
         // Plus metode
         public static int Plus(int a, int b)
