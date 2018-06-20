@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 collection kort", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Generisk metode", "cs201806 Generisk metode\cs201806 Generisk metode.csproj", "{259249DA-9586-4619-8A2B-068DC433655E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs201806 Delegate funktionspointer 1", "cs201806 Delegate funktionspointer 1\cs201806 Delegate funktionspointer 1.csproj", "{0CAB0C32-9B32-4271-9FB7-9828180EA573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{259249DA-9586-4619-8A2B-068DC433655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259249DA-9586-4619-8A2B-068DC433655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{259249DA-9586-4619-8A2B-068DC433655E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAB0C32-9B32-4271-9FB7-9828180EA573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAB0C32-9B32-4271-9FB7-9828180EA573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAB0C32-9B32-4271-9FB7-9828180EA573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAB0C32-9B32-4271-9FB7-9828180EA573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

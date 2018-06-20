@@ -1,5 +1,6 @@
 ﻿using System;
 using NLog;
+using NLog.Config;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,10 +12,39 @@ namespace BrugAfNlog
     {
 
         private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly string fileName = "SysLog";
+
         static void Main(string[] args)
         {
             logger.Trace("enter");
+            logger.Debug("Nu kaldes test 1");
+            test1(84,12);
             test2();
+
+            Console.WriteLine();
+
+            // Tester med ny log fil
+
+            LoggingConfiguration config = LogManager.Configuration;
+
+            var logFile = new NLog.Targets.FileTarget();
+            config.AddTarget("file", logFile);
+            logFile.FileName = fileName + ".log";
+            logFile.Layout = "${date} | ${message}";
+
+            var rule = new LoggingRule("*", LogLevel.Info, logFile);
+            config.LoggingRules.Add(rule);
+
+            LogManager.Configuration = config;
+            logger.Info("File converted!");
+
+
+            // *********************
+
+
+            logger.Trace("enter");
+            logger.Debug("Nu kaldes test 1");
+
 
             Console.Read();
         }
