@@ -36,7 +36,7 @@ namespace BrugAfNlog
             config.LoggingRules.Add(rule);
 
             LogManager.Configuration = config;
-            logger.Info("File converted!");
+            logger.Info("File configuration converted!");
 
 
             // *********************
